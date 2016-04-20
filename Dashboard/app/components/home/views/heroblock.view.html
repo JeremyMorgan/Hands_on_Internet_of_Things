@@ -1,0 +1,48 @@
+<div class="jumbotron">
+    <h3>
+        {{ctrl.HeroHeader}}
+    </h3>
+    <div class="my-chart">
+        <div class="ourchart">
+            <div class="loader" ng-hide="ctrl.dataLoaded">Loading...</div>
+        <canvas id="line" class="chart chart-line" chart-data="ctrl.tempGraphData"
+                chart-labels="ctrl.tempGraphLabels" chart-legend="false" chart-series="ctrl.tempGraphSeries"
+                chart-click="ctrl.tempGraphonClick"
+
+                chart-options="{ showScale: true,
+                                 scaleOverride: true,
+                                 scaleSteps: 5,
+                                 scaleStepWidth: 1,
+                                 scaleStartValue: ctrl.tempstartValue,
+                                 scaleShowVerticalLines: true,
+                                 responsive: true}"
+                >
+        </canvas>
+        <h4 class="text-center">Temperature last 30 minutes</h4>
+            <br />
+            <br />
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-12 col-centered">
+            <div google-chart chart="chartObject" class="googlechart"></div>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-4 column">
+            <h3 class="text-center">Current Temperature </h3>
+            <div class="loader" ng-hide="ctrl.dataLoaded">Loading...</div>
+            <h1 class="text-center">{{ ctrl.tempAvg }}</h1>
+        </div>
+        <div class="col-md-4 column">
+            <h3 class="text-center">Humidity</h3>
+            <div class="loader" ng-hide="ctrl.dataLoaded">Loading...</div>
+            <h1 class="text-center">{{ ctrl.humidity }}</h1>
+        </div>
+        <div class="col-md-4 column">
+            <h3 class="text-center">Barometric Pressure:</h3>
+            <div class="loader" ng-hide="ctrl.dataLoaded">Loading...</div>
+            <h1 class="text-center">{{ ctrl.pressure }}</h1>
+        </div>
+    </div>
+</div>

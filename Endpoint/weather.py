@@ -28,9 +28,10 @@ import Adafruit_BMP.BMP085 as BMP085
 import Adafruit_DHT
 import urllib
 import urllib2
+import json
 
 # URL of Endpoint
-url = "http://localhost:5000"
+url = "http://internet-of-things.jeremymorgan.com:5000/weather/api/v1/readings"
 
 # BMP085 is actually BMP180
 sensor = BMP085.BMP085()
@@ -48,27 +49,26 @@ sealevelpressure = sensor.read_sealevel_pressure()
 
 # Read from the AM2302
 humidity, temp2 = Adafruit_DHT.read_retry(sensor2, pin)
-
-# Get an average of the two temps:
 tempavg = (temp1 + temp2) / 2
 
 # Assemble Data Packet to send
-datapacket = {
-    'temp1' : temp1,
-    'temp2' : temp2,
-    'tempavg' : tempavg,
-    'pressure' : pressure,
-    'sealevelpressure' : sealevelpressure,
-    'humidity' : humidity
+data = {
+    'temp1': str(temp1),
+    'temp2': str(temp2),
+    'tempavg' : str(tempavg),
+    'pressure': str(pressure),
+    'sealevelpressure': str(sealevelpressure),
+    'humidity': str(humidity)
 }
 
-data = urllib.urlencode(datapacket)
-req = urllib2.Request(url, data)
+headers = {
+    'Connection': 'keep-alive',
+    'Content-type': 'application/json; charset=UTF-8',
+}
 
-# add content type header
-req.add_header('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8')
+#urldata = urllib.urlencode(data)
+urldata = json.dumps(data)
 
-# response
+req = urllib2.Request(url, urldata, headers)
 response = urllib2.urlopen(req)
-
-print response.getcode()
+the_page = response.read()

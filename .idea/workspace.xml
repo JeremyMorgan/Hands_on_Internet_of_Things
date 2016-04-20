@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fea2483b-6ccb-4d75-83e8-bdb80487652b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adafruit_Python_DHT" afterPath="$PROJECT_DIR$/Adafruit_Python_DHT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adafruit_Python_DHT/examples/AdafruitDHT.py" afterPath="$PROJECT_DIR$/Adafruit_Python_DHT/examples/AdafruitDHT.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adafruit_Python_DHT/examples/google_spreadsheet.py" afterPath="$PROJECT_DIR$/Adafruit_Python_DHT/examples/google_spreadsheet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Endpoint/api.py" afterPath="$PROJECT_DIR$/Endpoint/api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Endpoint/datastore.py" afterPath="$PROJECT_DIR$/Endpoint/datastore.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Endpoint/weather.py" afterPath="$PROJECT_DIR$/Endpoint/weather.py" />
     </list>
+    <list id="e3523f15-4a28-45ab-9fc9-561100fdf4c4" name="Failed commit: Default" comment="Added example files" />
     <ignored path="Hands_on_Internet_of_Things.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -57,8 +57,8 @@
       <file leaf-file-name="weather.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Endpoint/weather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+            <state relative-caret-position="1020">
+              <caret line="72" column="10" selection-start-line="71" selection-start-column="0" selection-end-line="73" selection-end-column="26" />
               <folding>
                 <element signature="e#1241#1277#0" expanded="true" />
               </folding>
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Endpoint/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="510">
+              <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
               <folding>
                 <element signature="e#18#90#0" expanded="true" />
               </folding>
@@ -78,17 +78,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datastore.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="datastore.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Endpoint/datastore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="51" column="14" selection-start-line="50" selection-start-column="0" selection-end-line="53" selection-end-column="8" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1460532666000" expanded="true" signature="377:523" placeholder="INSERT INTO reading... " />
-                <marker date="1460532666000" expanded="true" signature="1142:1171" placeholder="SELECT * FRO... reading" />
-                <marker date="1460532666000" expanded="true" signature="1142:1204" placeholder="SELECT * FRO... reading" />
-                <marker date="1460532666000" expanded="true" signature="1142:1205" placeholder="SELECT * FRO... reading" />
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1460913043000" expanded="true" signature="397:543" placeholder="INSERT INTO reading... " />
+                <marker date="1460913043000" expanded="true" signature="1181:1304" placeholder="SELECT * FRO... reading" />
+                <marker date="1460913043000" expanded="true" signature="1181:1337" placeholder="SELECT * FRO... reading" />
+                <marker date="1460913043000" expanded="true" signature="1181:1338" placeholder="SELECT * FRO... reading" />
+                <marker date="1460913043000" expanded="true" signature="2191:2237" placeholder="SELECT * FRO... reading" />
               </folding>
             </state>
           </provider>
@@ -135,10 +136,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Endpoint/app.py" />
         <option value="$PROJECT_DIR$/Endpoint/app-2.py" />
-        <option value="$PROJECT_DIR$/Endpoint/weather.py" />
         <option value="$PROJECT_DIR$/Endpoint/reading.py" />
-        <option value="$PROJECT_DIR$/Endpoint/datastore.py" />
+        <option value="$PROJECT_DIR$/Endpoint/weather.py" />
         <option value="$PROJECT_DIR$/Endpoint/api.py" />
+        <option value="$PROJECT_DIR$/Endpoint/datastore.py" />
       </list>
     </option>
   </component>
@@ -148,10 +149,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
+    <option name="x" value="165" />
     <option name="y" value="23" />
-    <option name="width" value="1889" />
-    <option name="height" value="991" />
+    <option name="width" value="1317" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -178,8 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,6 +213,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,28 +482,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1889" height="991" extended-state="0" />
-    <editor active="false" />
+    <frame x="165" y="23" width="1317" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2690196" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09899889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18299946" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09944134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -516,12 +518,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added example files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added example files" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Adafruit_Python_DHT/ez_setup.py">
+    <entry file="file://$PROJECT_DIR$/Endpoint/app-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -529,22 +535,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS18B20/gettemp.py">
+    <entry file="file://$PROJECT_DIR$/Endpoint/app-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Endpoint/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="72" column="10" selection-start-line="71" selection-start-column="0" selection-end-line="73" selection-end-column="26" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#1241#1277#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AM2302/AM2302-sparkfun.py">
+    <entry file="file://$PROJECT_DIR$/Endpoint/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="117" selection-start-line="17" selection-start-column="117" selection-end-line="17" selection-end-column="117" />
+        <state relative-caret-position="510">
+          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
           <folding>
-            <element signature="e#19#29#0" expanded="false" />
+            <element signature="e#18#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,9 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,9 +581,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="117" selection-start-line="17" selection-start-column="117" selection-end-line="17" selection-end-column="117" />
-          <folding>
-            <element signature="e#19#29#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adafruit_Python_DHT/ez_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS18B20/gettemp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AM2302/AM2302-sparkfun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="117" selection-start-line="17" selection-start-column="117" selection-end-line="17" selection-end-column="117" />
         </state>
       </provider>
     </entry>
@@ -581,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,9 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,9 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="117" selection-start-line="17" selection-start-column="117" selection-end-line="17" selection-end-column="117" />
-          <folding>
-            <element signature="e#19#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,20 +721,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Endpoint/simpletest.py">
+    <entry file="file://$PROJECT_DIR$/Endpoint/weather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="5" selection-start-line="44" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1020">
+          <caret line="72" column="10" selection-start-line="71" selection-start-column="0" selection-end-line="73" selection-end-column="26" />
+          <folding>
+            <element signature="e#1241#1277#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Endpoint/weather.py">
+    <entry file="file://$PROJECT_DIR$/Endpoint/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        <state relative-caret-position="510">
+          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
           <folding>
-            <element signature="e#1241#1277#0" expanded="true" />
+            <element signature="e#18#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Endpoint/datastore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="51" column="14" selection-start-line="50" selection-start-column="0" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1460913043000" expanded="true" signature="397:543" placeholder="INSERT INTO reading... " />
+            <marker date="1460913043000" expanded="true" signature="1181:1304" placeholder="SELECT * FRO... reading" />
+            <marker date="1460913043000" expanded="true" signature="1181:1337" placeholder="SELECT * FRO... reading" />
+            <marker date="1460913043000" expanded="true" signature="1181:1338" placeholder="SELECT * FRO... reading" />
+            <marker date="1460913043000" expanded="true" signature="2191:2237" placeholder="SELECT * FRO... reading" />
           </folding>
         </state>
       </provider>
@@ -739,27 +764,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Endpoint/datastore.py">
+    <entry file="file://$PROJECT_DIR$/Endpoint/simpletest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1460532666000" expanded="true" signature="377:523" placeholder="INSERT INTO reading... " />
-            <marker date="1460532666000" expanded="true" signature="1142:1171" placeholder="SELECT * FRO... reading" />
-            <marker date="1460532666000" expanded="true" signature="1142:1204" placeholder="SELECT * FRO... reading" />
-            <marker date="1460532666000" expanded="true" signature="1142:1205" placeholder="SELECT * FRO... reading" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Endpoint/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <element signature="e#18#90#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="690">
+          <caret line="46" column="5" selection-start-line="44" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,12 @@
+class Reading(object):
+
+    def __init__(self, jsoninput):
+
+        print "started"
+
+        self.temp1 = jsoninput.temp1
+        self.temp2 = jsoninput.temp2
+        self.tempavg = jsoninput.tempavg
+        self.pressure = jsoninput.pressure
+        self.sealevelpressure = jsoninput.sealevelpressure
+        self.humidity = jsoninput.humidity

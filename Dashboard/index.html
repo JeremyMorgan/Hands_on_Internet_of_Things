@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<body lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="angularstrapApp">
+<head>
+    <title>Simple IoT Dashboard</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="/assets/css/cyborg/bootstrap.css">
+    <link rel="stylesheet" href="/bower_components/angular-chart.js/dist/angular-chart.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <!-- <link rel="stylesheet" href="/assets/css/bootstrapFlatly/bootstrap.min.css"> -->
+
+</head>
+<div class="container">
+    <!-- start dynamic content -->
+    <div ui-view=""></div>
+    <!-- end dynamic content -->
+</div>
+
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="/bower_components/Chart.js/Chart.js"></script>
+<script src="/bower_components/angular-chart.js/dist/angular-chart.js"></script>
+<script src="/app/app.config.js"></script>
+<script src="/app/app.states.js"></script>
+<script src="/app/shared/shared.request.service.js"></script>
+<script src="/app/components/home/home.directives.js"></script>
+<script src="/app/components/home/home.controller.js"></script>
+<script src="/app/components/home/services/home.services.js"></script>
+
+<script src="/bower_components/moment/moment.js"></script>
+<script src="/bower_components/angular-moment/angular-moment.min.js"></script>
+
+<script src="bower_components/angular-google-chart/ng-google-chart.min.js"></script>
+
+</body>
+</html>
